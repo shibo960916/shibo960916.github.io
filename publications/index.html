@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
   <title>Publications | Shibo Wang</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Shibo Wang">
+  <meta name="description" content="Publications and research outputs of Shibo Wang.">
   <link rel="icon" href="/img/favicon.ico">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
@@ -13,196 +15,549 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="/index/">Home</a></li>
-        <li><a href="/publications/">Publications</a></li>
-        <li><a href="/recent-updates/">Updates</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main class="post-md">
-    <div class="article-gallery">
+  <div class="paper-main index-main">
 
-      <p>
-        <span style="font-size: 2rem; line-height: 1.2; padding: 20px 0; font-family: Times New Roman; font-weight: bold;">
-          Publications &amp; Research Outputs
-        </span>
-      </p>
+    <header>
+      <nav class="nav">
+        <ul>
+          <li><a href="/index/">Home</a></li>
+          <li><a href="/publications/">Publications</a></li>
+          <li><a href="/recent-updates/">Updates</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <p>
-        <em>Highlighted papers are accepted or officially selected for presentation.</em>
-      </p>
+    <main class="post-md">
 
-      <p>
-        <span style="font-size: 1.45rem; line-height: 1.2; padding: 20px 0; font-family: Times New Roman; font-weight: bold;">
-          Direction 1: Multimodal Reasoning &amp; Foundation Model Evaluation
-        </span>
-      </p>
+      <div class="sw-section-title">Publications &amp; Research Outputs</div>
 
-      <p>
-        <strong>[1] A Brain-Inspired Saliency Prediction Framework for Human-AI Cognitive Consistency in AIGC Content via Multi-Region Liquid Neurons</strong><br>
-        <strong>Shibo Wang</strong>, Yan Zhao*, Shigang Wang, Jian Wei, Shuo Li.<br>
-        AAAI Conference on Artificial Intelligence (AAAI), 2026. <strong>(Oral, 4%)</strong><br>
-        Biologically inspired saliency framework modeling six human visual brain regions to align AIGC attention with human gaze behavior.
-        Introduces dual-teacher distillation and HAMCI for quantitative human-AI cognitive consistency evaluation.
-      </p>
+      <div class="sw-card">
+        <p>
+          My research focuses on multimodal foundation model evaluation, AIGC quality assessment,
+          human-AI cognitive consistency, affective computing, egocentric video understanding,
+          and social cognitive reasoning. Representative works are organized below by research direction.
+        </p>
+        <p>
+          <strong>Note:</strong> highlighted papers are accepted papers or officially selected oral presentations.
+        </p>
+      </div>
 
-      <p>
-        <strong>[2] BAMNet: A Brain Area Mapping-Based Multimodal Saliency Prediction Method</strong><br>
-        <strong>Shibo Wang</strong>.<br>
-        IEEE International Conference on Multimedia and Expo (ICME), 2025. <strong>(Oral, 4%)</strong><br>
-        Multimodal saliency prediction network integrating RGB, depth, and eye-tracking data via brain-area-inspired feature fusion.
-      </p>
+      <div class="sw-section-title">Direction 1: Multimodal Reasoning &amp; Foundation Model Evaluation</div>
 
-      <p>
-        <strong>[3] LifeEval: A Multimodal Benchmark for Assistive AI in Egocentric Daily Life Tasks</strong><br>
-        Hengjian Gao, Kaiwei Zhang, <strong>Shibo Wang</strong>, Mingjie Chen, Qihang Cao, Xianfeng Wang.<br>
-        IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.<br>
-        A multimodal benchmark for evaluating assistive AI systems in egocentric daily-life scenarios.
-      </p>
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/aaai2026_saliency.png" alt="AAAI 2026 Brain-inspired saliency framework">
+        </div>
 
-      <p>
-        <strong>[4] One Battle After Another: Probing LLMs' Limits on Multi-Turn Instruction Following with an Evolving Benchmark Framework</strong><br>
-        Qi Jia, Ye Shen, Xiujie Song, Kaiwei Zhang, <strong>Shibo Wang</strong>, Dun Pei, Xiangyang Zhu, Guangtao Zhai.<br>
-        The 64th Annual Meeting of the Association for Computational Linguistics (ACL main), 2026.<br>
-        An evolving benchmark framework for probing LLMs in long-horizon multi-turn instruction following.
-      </p>
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            A Brain-Inspired Saliency Prediction Framework for Human-AI Cognitive Consistency in AIGC Content via Multi-Region Liquid Neurons
+            <span class="sw-badge">AAAI 2026 Oral 4%</span>
+          </div>
 
-      <p>
-        <strong>[5] Beyond Visual Fidelity: Auditing Emotional Reliability in AI-Generated Facial Expressions</strong><br>
-        <strong>Shibo Wang</strong>, et al.<br>
-        Submitted to ACM Multimedia (ACM MM), 2026.<br>
-        Proposes Real Emotion Probe (REP) to diagnose affective hallucination, manifold drift, anatomical mislocalization, and affective fragility in AI-generated facial expressions.
-      </p>
+          <div class="sw-pub-authors">
+            <strong>Shibo Wang</strong>, Yan Zhao*, Shigang Wang, Jian Wei, Shuo Li
+          </div>
 
-      <p>
-        <strong>[6] CECID: Diagnosing and Rectifying Evidence Reasoning Failures in Egocentric Video-LLMs via Causal Evidence Consistency</strong><br>
-        <strong>Shibo Wang</strong>, et al.<br>
-        Submitted to ACM Multimedia (ACM MM), 2026.<br>
-        Proposes CECID, a framework for diagnosing and rectifying evidence reasoning failures in egocentric Video-LLMs via controlled spatial interventions, E<sup>2</sup>IC, and SV-EVM.
-      </p>
+          <div class="sw-pub-venue">
+            AAAI Conference on Artificial Intelligence, 2026
+          </div>
 
-      <p>
-        <strong>[7] MERC: Diagnosing Trust Allocation and Reasoning Stability in Multimodal Affective Models under Conflicting Evidence</strong><br>
-        <strong>Shibo Wang</strong>, et al.<br>
-        Submitted to IEEE Transactions on Affective Computing (TAFFC), 2026.<br>
-        Proposes MERC for auditing trust allocation and reasoning stability in multimodal affective models under controlled cross-modal conflicts.
-      </p>
+          <div class="sw-pub-note">
+            A biologically inspired saliency framework that models six human visual brain regions
+            to align AIGC attention with human gaze behavior.
+          </div>
 
-      <p>
-        <strong>[8] A Trajectory-Based Framework for Diagnosing and Calibrating Social Order in Large Language Models</strong><br>
-        <strong>Shibo Wang</strong>, Yan Zhao, Guangtao Zhai, Peitong Han, et al.<br>
-        Submitted to Expert Systems with Applications (ESWA).<br>
-        Introduces a trajectory-based framework and DSOC to quantify and calibrate implicit social-order preferences in large language models.
-      </p>
+          <table class="sw-mini-table">
+            <tr>
+              <td>Task</td>
+              <td>AIGC attention consistency</td>
+            </tr>
+            <tr>
+              <td>Core idea</td>
+              <td>Multi-region liquid neurons + dual-teacher distillation</td>
+            </tr>
+            <tr>
+              <td>Metric</td>
+              <td>HAMCI, NSS, SIM, CC</td>
+            </tr>
+          </table>
+        </div>
+      </div>
 
-      <p>
-        <strong>[9] Learning Human-AI Attention Consistency via Brain-Inspired Saliency Modeling for AI-Generated Images</strong><br>
-        <strong>Shibo Wang</strong>, Yan Zhao, Shigang Wang, Jian Wei.<br>
-        Submitted to Neurocomputing (NC).<br>
-        Proposes NeuroSalEval, a brain-inspired saliency framework trained via dual-teacher distillation to align model attention with human gaze under domain shift.
-      </p>
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/bamnet.png" alt="BAMNet multimodal saliency prediction">
+        </div>
 
-      <p>
-        <span style="font-size: 1.45rem; line-height: 1.2; padding: 20px 0; font-family: Times New Roman; font-weight: bold;">
-          Direction 2: Multimodal Perception &amp; Human-Centered AI
-        </span>
-      </p>
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            BAMNet: A Brain Area Mapping-Based Multimodal Saliency Prediction Method
+            <span class="sw-badge">ICME 2025 Oral 4%</span>
+          </div>
 
-      <p>
-        <strong>[10] CVMNet: A Consistency-Driven Multimodal Framework for Video Popularity Prediction via Multi-Person Perceptual Alignment</strong><br>
-        <strong>Shibo Wang</strong>, Yan Zhao, Shigang Wang, Peitong Han, Jian Wei.<br>
-        Submitted to IEEE Transactions on Multimedia (TMM).<br>
-        Models multi-person perceptual consensus via spatial-temporal eye-tracking consistency for multimodal video popularity prediction.
-      </p>
+          <div class="sw-pub-authors">
+            <strong>Shibo Wang</strong>*
+          </div>
 
-      <p>
-        <strong>[11] Eye-Tracking-Based Perceptual Performance Evaluation for Multi-Screen Spliced Aircraft</strong><br>
-        P. Han, Y. Zhao, <strong>Shibo Wang</strong>, et al.<br>
-        Display, 2026.<br>
-        An eye-tracking-driven framework for evaluating perceptual performance in multi-screen aircraft display environments.
-      </p>
+          <div class="sw-pub-venue">
+            IEEE International Conference on Multimedia and Expo, 2025
+          </div>
 
-      <p>
-        <span style="font-size: 1.45rem; line-height: 1.2; padding: 20px 0; font-family: Times New Roman; font-weight: bold;">
-          Direction 3: Remote Sensing &amp; Signal Processing
-        </span>
-      </p>
+          <div class="sw-pub-note">
+            A multimodal saliency prediction network integrating RGB, depth, and eye-tracking data
+            through brain-area-inspired feature fusion.
+          </div>
 
-      <p>
-        <strong>[12] Inversion Method of Significant Wave Height Based on Time Delay Window Using the Ship-borne Beidou Reflected Signal</strong><br>
-        <strong>Shibo Wang</strong>, et al.<br>
-        Ocean Engineering, vol. 272, 2023. <strong>(Q1 Journal)</strong><br>
-        GNSS-R-based sea state inversion using time-delay window analysis for shipborne reflected signals.
-      </p>
+          <table class="sw-mini-table">
+            <tr>
+              <td>Input</td>
+              <td>RGB, depth, eye-tracking signals</td>
+            </tr>
+            <tr>
+              <td>Output</td>
+              <td>Human attention and saliency prediction</td>
+            </tr>
+            <tr>
+              <td>Contribution</td>
+              <td>Brain-area mapping for interpretable multimodal fusion</td>
+            </tr>
+          </table>
+        </div>
+      </div>
 
-      <p>
-        <strong>[13] GNSS-R-Based Significant Wave Height Inversion Using Delay-Doppler Maps</strong><br>
-        <strong>Shibo Wang</strong>, Y. Li.<br>
-        Optics and Precision Engineering, 2022.<br>
-        Significant wave height inversion using Delay-Doppler maps from GNSS-R observations.
-      </p>
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/lifeeval.png" alt="LifeEval benchmark">
+        </div>
 
-      <p>
-        <strong>[14] Fractional Order Spectrum in SAR Image Registration</strong><br>
-        J. Sun, Y. Zhao, X. Li, <strong>Shibo Wang</strong>, J. Wei, and S. Wang.<br>
-        IEEE International Conference on Multimedia and Expo (ICME), 2024.<br>
-        Fractional-order spectral representations for robust SAR image registration under geometric distortions.
-      </p>
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            LifeEval: A Multimodal Benchmark for Assistive AI in Egocentric Daily Life Tasks
+          </div>
 
-      <p>
-        <strong>[15] Monitoring Vessel Deadweight Tonnage Using High-Resolution Satellite Images</strong><br>
-        M. Hou, Y. Li, M. Xie, <strong>Shibo Wang</strong>, and T. Wang.<br>
-        Ocean &amp; Coastal Management, 2023.<br>
-        Satellite image based method for estimating vessel deadweight tonnage in maritime surveillance.
-      </p>
+          <div class="sw-pub-authors">
+            Hengjian Gao, Kaiwei Zhang, <strong>Shibo Wang</strong>, Mingjie Chen, Qihang Cao, Xianfeng Wang
+          </div>
 
-      <p>
-        <strong>[16] A Quantum-Entanglement-Swapping-Based Key Distribution Protocol for Unmanned Surface Vehicles</strong><br>
-        L. Qin, Y. Li, <strong>Shibo Wang</strong>.<br>
-        Chinese EI Journal.<br>
-        Secure key distribution protocol for unmanned surface vehicle communication based on quantum entanglement swapping.
-      </p>
+          <div class="sw-pub-venue">
+            IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026
+          </div>
 
-      <p>
-        <span style="font-size: 1.45rem; line-height: 1.2; padding: 20px 0; font-family: Times New Roman; font-weight: bold;">
-          Patent
-        </span>
-      </p>
+          <div class="sw-pub-note">
+            A multimodal benchmark for evaluating assistive AI systems in egocentric daily-life scenarios.
+          </div>
 
-      <p>
-        <strong>Eye-Tracking-Based Human Visual Perception Evaluation Method for Enclosed Cockpit Environments</strong><br>
-        Y. Zhao, P. Han, Z. Li, W. Wang, Z. Gao, J. Wei, <strong>Shibo Wang</strong>.<br>
-        Chinese Invention Patent, filed.
-      </p>
+          <table class="sw-mini-table">
+            <tr>
+              <td>Scenario</td>
+              <td>Egocentric daily-life tasks</td>
+            </tr>
+            <tr>
+              <td>Capability</td>
+              <td>Perception, task reasoning, assistive decision-making</td>
+            </tr>
+            <tr>
+              <td>Goal</td>
+              <td>Evaluation of assistive multimodal AI systems</td>
+            </tr>
+          </table>
+        </div>
+      </div>
 
-      <p>
-        <span style="font-size: 1.45rem; line-height: 1.2; padding: 20px 0; font-family: Times New Roman; font-weight: bold;">
-          Honors &amp; Academic Activities
-        </span>
-      </p>
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/acl2026_multiturn.png" alt="Multi-turn instruction following benchmark">
+        </div>
 
-      <ul>
-        <li>Conference reviewer: ICML, ACM MM, AAAI.</li>
-        <li>Academic Scholarship, Jilin University, 2023-2025.</li>
-        <li>First-Class Scholarship, Dalian Maritime University, 2021-2022.</li>
-        <li>Invited speaker at the 10th China-Europe GNSS-R Joint Workshop, Nov. 2021.</li>
-        <li>Contributor to the ESA-NRSCC collaborative GNSS-R monograph on ocean environment monitoring, Mar. 2022 - Dec. 2022.</li>
-      </ul>
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            One Battle After Another: Probing LLMs' Limits on Multi-Turn Instruction Following with an Evolving Benchmark Framework
+          </div>
 
-    </div>
-  </main>
+          <div class="sw-pub-authors">
+            Qi Jia, Ye Shen, Xiujie Song, Kaiwei Zhang, <strong>Shibo Wang</strong>, Dun Pei, Xiangyang Zhu, Guangtao Zhai
+          </div>
 
-  <footer>
-    <div class="footer">
-      <span>© 2026</span>
-    </div>
-    <div class="footer-last">
-      <span>Shibo Wang</span>
-    </div>
-  </footer>
+          <div class="sw-pub-venue">
+            The 64th Annual Meeting of the Association for Computational Linguistics, 2026
+          </div>
+
+          <div class="sw-pub-note">
+            An evolving benchmark framework for probing LLMs in long-horizon multi-turn instruction following.
+          </div>
+
+          <table class="sw-mini-table">
+            <tr>
+              <td>Task</td>
+              <td>Multi-turn instruction following</td>
+            </tr>
+            <tr>
+              <td>Focus</td>
+              <td>Long-horizon adherence and reasoning stability</td>
+            </tr>
+            <tr>
+              <td>Finding</td>
+              <td>Progressive degradation under deeper dialogue and higher complexity</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/rep.png" alt="Real Emotion Probe for AIGC facial expressions">
+        </div>
+
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            Beyond Visual Fidelity: Auditing Emotional Reliability in AI-Generated Facial Expressions
+          </div>
+
+          <div class="sw-pub-authors">
+            <strong>Shibo Wang</strong>, et al.
+          </div>
+
+          <div class="sw-pub-venue">
+            Submitted to ACM Multimedia, 2026
+          </div>
+
+          <div class="sw-pub-note">
+            A label-free auditing framework that repurposes a frozen facial expression recognizer
+            to evaluate the affective reliability of AI-generated facial expressions.
+          </div>
+
+          <table class="sw-mini-table">
+            <tr>
+              <td>Framework</td>
+              <td>Real Emotion Probe</td>
+            </tr>
+            <tr>
+              <td>Diagnosis</td>
+              <td>Manifold drift, anatomical mislocalization, affective fragility</td>
+            </tr>
+            <tr>
+              <td>Application</td>
+              <td>AIGC facial emotion auditing and refinement</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/cecid.png" alt="CECID framework for egocentric video reasoning">
+        </div>
+
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            CECID: Diagnosing and Rectifying Evidence Reasoning Failures in Egocentric Video-LLMs via Causal Evidence Consistency
+          </div>
+
+          <div class="sw-pub-authors">
+            <strong>Shibo Wang</strong>, et al.
+          </div>
+
+          <div class="sw-pub-venue">
+            Submitted to ACM Multimedia, 2026
+          </div>
+
+          <div class="sw-pub-note">
+            A diagnostic and calibration framework for egocentric Video-LLMs using controlled spatial interventions,
+            structured reasoning contracts, and training-free test-time reranking.
+          </div>
+
+          <table class="sw-mini-table">
+            <tr>
+              <td>Task</td>
+              <td>Egocentric video reasoning</td>
+            </tr>
+            <tr>
+              <td>Framework</td>
+              <td>CECID, E<sup>2</sup>IC, SV-EVM</td>
+            </tr>
+            <tr>
+              <td>Diagnosis</td>
+              <td>Semantic hijacking, evidence neglect, hallucinated explanations</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/merc.png" alt="MERC multimodal emotion reasoning">
+        </div>
+
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            MERC: Diagnosing Trust Allocation and Reasoning Stability in Multimodal Affective Models under Conflicting Evidence
+          </div>
+
+          <div class="sw-pub-authors">
+            <strong>Shibo Wang</strong>, et al.
+          </div>
+
+          <div class="sw-pub-venue">
+            Submitted to IEEE Transactions on Affective Computing, 2026
+          </div>
+
+          <div class="sw-pub-note">
+            A diagnostic framework for auditing trust allocation and reasoning stability in multimodal affective models
+            under controlled cross-modal conflicts.
+          </div>
+
+          <table class="sw-mini-table">
+            <tr>
+              <td>Input</td>
+              <td>Visual, audio, text emotion evidence</td>
+            </tr>
+            <tr>
+              <td>Diagnosis</td>
+              <td>MPI, HAMCI-E, RQ</td>
+            </tr>
+            <tr>
+              <td>Intervention</td>
+              <td>MCS, EEC, Structured Reason-then-Verify</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/dsoc.png" alt="DSOC social-order calibration">
+        </div>
+
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            A Trajectory-Based Framework for Diagnosing and Calibrating Social Order in Large Language Models
+          </div>
+
+          <div class="sw-pub-authors">
+            <strong>Shibo Wang</strong>, Yan Zhao, Guangtao Zhai, Peitong Han, et al.
+          </div>
+
+          <div class="sw-pub-venue">
+            Expert Systems with Applications, 2026
+          </div>
+
+          <div class="sw-pub-note">
+            A trajectory-based framework for quantifying and calibrating implicit social-order preferences
+            in large language models under emotional conflict.
+          </div>
+
+          <table class="sw-mini-table">
+            <tr>
+              <td>Object</td>
+              <td>Multi-turn social interaction trajectory</td>
+            </tr>
+            <tr>
+              <td>State space</td>
+              <td>Conflict cooling, minority protection, participation balance, justification, consistency</td>
+            </tr>
+            <tr>
+              <td>Calibration</td>
+              <td>Dynamic Social Order Calibration</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/neurosaleval.png" alt="NeuroSalEval for AIGC attention consistency">
+        </div>
+
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            Learning Human-AI Attention Consistency via Brain-Inspired Saliency Modeling for AI-Generated Images
+          </div>
+
+          <div class="sw-pub-authors">
+            <strong>Shibo Wang</strong>, Yan Zhao, Shigang Wang, Jian Wei
+          </div>
+
+          <div class="sw-pub-venue">
+            Submitted to Neurocomputing
+          </div>
+
+          <div class="sw-pub-note">
+            A brain-inspired saliency framework trained via dual-teacher distillation to align model attention
+            with human gaze under AIGC domain shift.
+          </div>
+
+          <table class="sw-mini-table">
+            <tr>
+              <td>Framework</td>
+              <td>NeuroSalEval</td>
+            </tr>
+            <tr>
+              <td>Training</td>
+              <td>Dual-teacher distillation</td>
+            </tr>
+            <tr>
+              <td>Metric</td>
+              <td>HAMCI for human-AI attention consistency</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sw-section-title">Direction 2: Multimodal Perception &amp; Human-Centered AI</div>
+
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/cvmnet.png" alt="CVMNet video popularity prediction">
+        </div>
+
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            CVMNet: A Consistency-Driven Multimodal Framework for Video Popularity Prediction via Multi-Person Perceptual Alignment
+          </div>
+
+          <div class="sw-pub-authors">
+            <strong>Shibo Wang</strong>, Yan Zhao, Shigang Wang, Peitong Han, Jian Wei
+          </div>
+
+          <div class="sw-pub-venue">
+            Submitted to IEEE Transactions on Multimedia
+          </div>
+
+          <div class="sw-pub-note">
+            A multimodal framework for modeling multi-person perceptual consensus through spatial-temporal
+            eye-tracking consistency.
+          </div>
+
+          <table class="sw-mini-table">
+            <tr>
+              <td>Task</td>
+              <td>Video popularity prediction</td>
+            </tr>
+            <tr>
+              <td>Evidence</td>
+              <td>Multi-person eye-tracking consistency</td>
+            </tr>
+            <tr>
+              <td>Benefit</td>
+              <td>Improved accuracy and interpretability</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/aircraft.png" alt="Eye-tracking aircraft display evaluation">
+        </div>
+
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            Eye-Tracking-Based Perceptual Performance Evaluation for Multi-Screen Spliced Aircraft
+          </div>
+
+          <div class="sw-pub-authors">
+            P. Han, Y. Zhao, <strong>Shibo Wang</strong>, et al.
+          </div>
+
+          <div class="sw-pub-venue">
+            Display, 2026
+          </div>
+
+          <div class="sw-pub-note">
+            An eye-tracking-driven framework for evaluating perceptual performance in multi-screen aircraft display environments.
+          </div>
+
+          <table class="sw-mini-table">
+            <tr>
+              <td>Signal</td>
+              <td>Eye-tracking behavior</td>
+            </tr>
+            <tr>
+              <td>Scenario</td>
+              <td>Multi-screen aircraft display</td>
+            </tr>
+            <tr>
+              <td>Goal</td>
+              <td>Perceptual performance evaluation</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sw-section-title">Direction 3: Remote Sensing &amp; Signal Processing</div>
+
+      <div class="sw-pub sw-pub-with-figure">
+        <div class="sw-pub-figure">
+          <img src="/img/publications/gnssr.png" alt="GNSS-R sea state inversion">
+        </div>
+
+        <div class="sw-pub-content">
+          <div class="sw-pub-title">
+            Inversion Method of Significant Wave Height Based on Time Delay Window Using the Ship-borne Beidou Reflected Signal
+          </div>
+
+          <div class="sw-pub-authors">
+            <strong>Shibo Wang</strong>, et al.
+          </div>
+
+          <div class="sw-pub-venue">
+            Ocean Engineering, vol. 272, 2023
+          </div>
+
+          <div class="sw-pub-note">
+            A GNSS-R-based sea-state inversion method using time-delay window analysis for shipborne reflected signals.
+          </div>
+
+          <table class="sw-mini-table">
+            <tr>
+              <td>Task</td>
+              <td>Significant wave height inversion</td>
+            </tr>
+            <tr>
+              <td>Signal</td>
+              <td>Shipborne Beidou reflected signal</td>
+            </tr>
+            <tr>
+              <td>Application</td>
+              <td>Marine environment monitoring</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sw-section-title">Patent &amp; Honors</div>
+
+      <div class="sw-card">
+        <p>
+          <strong>Eye-Tracking-Based Human Visual Perception Evaluation Method for Enclosed Cockpit Environments</strong><br>
+          Y. Zhao, P. Han, Z. Li, W. Wang, Z. Gao, J. Wei, <strong>Shibo Wang</strong>.<br>
+          Chinese Invention Patent, filed.
+        </p>
+
+        <ul>
+          <li>Conference reviewer: ICML, ACM MM, AAAI.</li>
+          <li>Academic Scholarship, Jilin University, 2023-2025.</li>
+          <li>First-Class Scholarship, Dalian Maritime University, 2021-2022.</li>
+          <li>Invited speaker at the 10th China-Europe GNSS-R Joint Workshop, Nov. 2021.</li>
+          <li>Contributor to the ESA-NRSCC collaborative GNSS-R monograph on ocean environment monitoring, Mar. 2022 - Dec. 2022.</li>
+        </ul>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="footer">
+        <span>© 2026</span>
+      </div>
+      <div class="footer-last">
+        <span>Shibo Wang</span>
+      </div>
+    </footer>
+
+  </div>
+
 </body>
 </html>
+```
